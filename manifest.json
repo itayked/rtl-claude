@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Claude RTL Auto-Detect",
+  "version": "1.0",
+  "description": "Auto-detect Hebrew text and switch direction to RTL on claude.ai",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://claude.ai/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
