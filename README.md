@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://github.com/itayked/rtl-claude/releases">Releases</a> · 
   <a href="https://github.com/itayked/rtl-claude/issues">דיווח באגים</a> · 
-  <a href="#תרומה">תרומה</a>
+  <a href="#תמיכה-בפיתוח">תמיכה בפיתוח</a>
 </p>
 
 ---
@@ -61,9 +61,9 @@
   <img src="screenshot1.png" alt="צילום מסך" width="640">
 </p>
 
-## תרומה
+## תמיכה בפיתוח
 
-אם התוסף עוזר לכם, אפשר לתמוך בפיתוח:
+התוסף חינמי לחלוטין. תמיכה מהקהילה עוזרת לי להמשיך לשפר ולתחזק אותו:
 
 | | קישור |
 |---|---|
