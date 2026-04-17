@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claude RTL Auto-Detect</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: "Segoe UI", Arial, sans-serif; background: #1a1a1a; color: #e0e0e0; line-height: 1.7; }
+    a { color: #e8a088; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header { background: #CC785C; padding: 3rem 1rem; text-align: center; }
+    header img { width: 96px; height: 96px; margin-bottom: 1rem; }
+    header h1 { color: #fff; font-size: 2rem; margin-bottom: 0.5rem; }
+    header p { color: #F5E6D3; font-size: 1.1rem; max-width: 600px; margin: 0 auto; }
+    main { max-width: 720px; margin: 0 auto; padding: 2.5rem 1.5rem; }
+    section { margin-bottom: 2.5rem; }
+    h2 { color: #CC785C; font-size: 1.3rem; margin-bottom: 0.75rem; border-bottom: 1px solid #333; padding-bottom: 0.4rem; }
+    ul { padding-right: 1.5rem; margin-bottom: 1rem; }
+    li { margin-bottom: 0.4rem; }
+    .badge { display: inline-block; background: #CC785C; color: #fff; padding: 0.2rem 0.7rem; border-radius: 12px; font-size: 0.85rem; }
+    code { background: #2a2a2a; padding: 0.15rem 0.4rem; border-radius: 4px; font-size: 0.9rem; direction: ltr; unicode-bidi: embed; }
+    pre { background: #2a2a2a; padding: 1rem; border-radius: 8px; overflow-x: auto; direction: ltr; margin: 0.75rem 0; }
+    .cta { text-align: center; margin: 2rem 0; }
+    .cta a { display: inline-block; background: #CC785C; color: #fff; padding: 0.75rem 2rem; border-radius: 8px; font-size: 1.1rem; font-weight: bold; }
+    .cta a:hover { background: #b5694f; text-decoration: none; }
+    .donate { background: #222; border-radius: 12px; padding: 1.5rem; text-align: center; }
+    .donate h2 { border: none; text-align: center; }
+    .donate-links { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 1rem; }
+    .donate-links a { background: #CC785C; color: #fff; padding: 0.5rem 1.5rem; border-radius: 8px; font-weight: bold; }
+    .donate-links a:hover { background: #b5694f; text-decoration: none; }
+    footer { text-align: center; padding: 2rem 1rem; color: #666; font-size: 0.85rem; border-top: 1px solid #2a2a2a; }
+    footer a { color: #888; }
+    .screenshot { text-align: center; margin: 1.5rem 0; }
+    .screenshot img { max-width: 100%; border-radius: 8px; border: 1px solid #333; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="icon128.png" alt="Claude RTL Auto-Detect">
+    <h1>Claude RTL Auto-Detect</h1>
+    <p>תוסף כרום שמזהה אוטומטית טקסט בעברית באתר claude.ai ומתאים את כיוון הכתיבה מימין לשמאל.</p>
+  </header>
+
+  <main>
+    <div class="cta">
+      <a href="https://github.com/itayked/rtl-claude">התקנה מ-GitHub</a>
+    </div>
+
+    <section>
+      <h2>מה הבעיה?</h2>
+      <p>באתר claude.ai אין תמיכה מובנית בכיוון כתיבה מימין לשמאל. כשכותבים או מקבלים תשובות בעברית, הטקסט מופיע בכיוון הלא נכון — משמאל לימין. קשה לקרוא, מבלבל, ופשוט לא נעים.</p>
+    </section>
+
+    <section>
+      <h2>מה התוסף עושה?</h2>
+      <ul>
+        <li><strong>זיהוי לפי רוב תווים</strong> — אם רוב התווים בפסקה הם בעברית, היא תוצג מימין לשמאל, גם אם מתחילה באנגלית</li>
+        <li><strong>תמיכה דו-כיוונית (BiDi)</strong> — אנגלית בתוך פסקה עברית זורמת בצורה טבעית</li>
+        <li><strong>זיהוי פר-פסקה</strong> — כל פסקה, פריט ברשימה, כותרת או תא בטבלה מזוהים בנפרד</li>
+        <li><strong>תיבת הקלט</strong> — גם מה שאתם כותבים מוצג בכיוון הנכון</li>
+        <li><strong>אפס הרשאות</strong> — לא נדרשות הרשאות מיוחדות, לא נשלח מידע לשום מקום</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>צילום מסך</h2>
+      <div class="screenshot">
+        <img src="screenshot1.png" alt="צילום מסך — עברית מיושרת מימין לשמאל ב-claude.ai">
+      </div>
+    </section>
+
+    <section>
+      <h2>התקנה ידנית</h2>
+      <ol>
+        <li>הורידו את הקוד מ-<a href="https://github.com/itayked/rtl-claude">GitHub</a> (Code → Download ZIP)</li>
+        <li>פתחו את <code>chrome://extensions/</code> בדפדפן</li>
+        <li>הפעילו <strong>מצב מפתח</strong> (Developer mode)</li>
+        <li>לחצו על <strong>Load unpacked</strong> ובחרו את התיקייה</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>איך זה עובד?</h2>
+      <p>התוסף מורכב מקובץ יחיד (<code>content.js</code>, כ-60 שורות) שמשתמש ב-<code>MutationObserver</code> כדי לעקוב אחרי שינויים ב-DOM. בכל פסקה חדשה הוא סופר תווים עבריים מול לטיניים ומגדיר את כיוון הכתיבה בהתאם. הביצועים מבוססים על <code>requestAnimationFrame</code> — כל השינויים נצברים ומיושמים בבת אחת.</p>
+    </section>
+
+    <section class="donate">
+      <h2>תרומה</h2>
+      <p>אם התוסף עוזר לכם, אפשר לתמוך בפיתוח:</p>
+      <div class="donate-links">
+        <a href="https://www.bitpay.co.il/app/me/5F5FA07A-A91B-0294-AF13-82F9898D0BE60CBF">Bit</a>
+        <a href="https://links.payboxapp.com/Q7PKvP2xp2b">PayBox</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="privacy.html">מדיניות פרטיות</a> · <a href="https://github.com/itayked/rtl-claude">GitHub</a> · <a href="https://github.com/itayked/rtl-claude/issues">דיווח באגים</a>
+    <br>MIT License &copy; 2026
+  </footer>
+</body>
+</html>
