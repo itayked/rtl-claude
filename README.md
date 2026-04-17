@@ -63,12 +63,9 @@
 
 ## תמיכה בפיתוח
 
-התוסף חינמי לחלוטין. תמיכה מהקהילה עוזרת לי להמשיך לשפר ולתחזק אותו:
+התוסף חינמי לחלוטין. אם הוא חוסך לכם זמן — אפשר לתמוך בהמשך הפיתוח:
 
-| | קישור |
-|---|---|
-| **Bit** | [bit.co.il](https://www.bitpay.co.il/app/me/5F5FA07A-A91B-0294-AF13-82F9898D0BE60CBF) |
-| **PayBox** | [payboxapp.com](https://links.payboxapp.com/Q7PKvP2xp2b) |
+**[Bit](https://www.bitpay.co.il/app/me/5F5FA07A-A91B-0294-AF13-82F9898D0BE60CBF)** · **[PayBox](https://links.payboxapp.com/Q7PKvP2xp2b)**
 
 ## רישיון
 
