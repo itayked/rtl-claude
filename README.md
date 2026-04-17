@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://github.com/itayked/rtl-claude/releases">Releases</a> · 
   <a href="https://github.com/itayked/rtl-claude/issues">דיווח באגים</a> · 
-  <a href="#תרומה">תרומה</a>
+  <a href="#תמיכה-בפיתוח">תמיכה בפיתוח</a>
 </p>
 
 ---
@@ -61,14 +61,11 @@
   <img src="screenshot1.png" alt="צילום מסך" width="640">
 </p>
 
-## תרומה
+## תמיכה בפיתוח
 
-אם התוסף עוזר לכם, אפשר לתמוך בפיתוח:
+התוסף חינמי לחלוטין. אם הוא חוסך לכם זמן — אפשר לתמוך בהמשך הפיתוח:
 
-| | קישור |
-|---|---|
-| **Bit** | [bit.co.il](https://www.bitpay.co.il/app/me/5F5FA07A-A91B-0294-AF13-82F9898D0BE60CBF) |
-| **PayBox** | [payboxapp.com](https://links.payboxapp.com/Q7PKvP2xp2b) |
+**[Bit](https://www.bitpay.co.il/app/me/5F5FA07A-A91B-0294-AF13-82F9898D0BE60CBF)** · **[PayBox](https://links.payboxapp.com/Q7PKvP2xp2b)**
 
 ## רישיון
 
