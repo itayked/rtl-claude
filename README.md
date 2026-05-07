@@ -61,11 +61,6 @@
   <img src="screenshot1.png" alt="צילום מסך" width="640">
 </p>
 
-## תמיכה בפיתוח
-
-התוסף חינמי לחלוטין. אם הוא חוסך לכם זמן — אפשר לתמוך בהמשך הפיתוח:
-
-**[Bit](https://www.bitpay.co.il/app/me/5F5FA07A-A91B-0294-AF13-82F9898D0BE60CBF)** · **[PayBox](https://links.payboxapp.com/Q7PKvP2xp2b)**
 
 ## רישיון
 
